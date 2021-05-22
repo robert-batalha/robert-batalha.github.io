@@ -1,54 +1,38 @@
 body{
-    display: flex;
-    flex-direction: column;
+    display: grid;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     background-color: #B5D6B2;
+    padding: 50px 80px;
 }
-h1, h2{
-    color: #883c49;
-}
-li{
+
+li {
     list-style-type: none;
 }
-li.skill{
-    font-family: monospace;
-    font-size: large;
 
-}
-.content{
-    max-width: 75%;
-}
-.header{
-    top: 0;
-    right: 0;
-    left: 0;
-    width: 70%;
-    display: flex;
+header {
+    display: inline-block;
     justify-content: space-around;
-    background-color: #53131E;
-    padding: 50px 80px;
-    border-radius: 20px;
 }
-.header p{
-    max-width: 40%;
+
+.about {
     font-size: larger;
-    color: white;
 }
-#title{
-    text-align: center;
-    line-height: 30px;
-    color: #53131E;
+
+footer {
+    display: inline;
 }
-.footer #logos{
-    display: flex;
-    justify-content: space-between;
-}
+
 .external{
     text-decoration: none;
     font-weight: bold;
-    color: rgb(139, 250, 139);
+    color: slateblue;
 }
-.circled{
+
+.external-img {
+    padding-right: 50px;
+}
+
+.circled {
     border-radius: 100%;
 }
