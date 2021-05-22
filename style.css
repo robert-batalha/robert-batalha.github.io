@@ -6,33 +6,34 @@ body{
     padding: 50px 80px;
 }
 
-li {
-    list-style-type: none;
-}
-
 header {
     display: inline-block;
     justify-content: space-around;
-}
-
-.about {
-    font-size: larger;
 }
 
 footer {
     display: inline;
 }
 
+li {
+    list-style-type: none;
+}
+
+.about {
+    font-size: larger;
+}
+
 .external{
+
     text-decoration: none;
     font-weight: bold;
     color: slateblue;
-}
+}    
 
 .external-img {
     padding-right: 50px;
-}
+}    
 
 .circled {
     border-radius: 100%;
-}
+}    
